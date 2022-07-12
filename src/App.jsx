@@ -31,6 +31,7 @@ export default class App extends Component {
 
   handleStart = () => {
     this.setState({ isCounting: true })
+    // this.counterId ni funksiyadan tashqarida ishlatsa bo'ladi
     this.counterId = setInterval(() => {
       this.setState({ count: this.state.count + 1 })
     }, 1000)
