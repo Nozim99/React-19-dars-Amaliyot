@@ -28,6 +28,62 @@
   color: #61dafb;
 }
 
+body {
+  background-color: #2E182E;
+}
+
+.square {
+  background-color: #4B323B;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.h1{
+  padding-top: 10px;
+}
+
+button {
+  padding: 10px 25px;
+  margin: 0 10px;
+  color: white;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: all 200ms;
+}
+
+button:hover{
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+
+
+.start{
+  background-color: #32BC87;
+}
+
+button:last-of-type{
+  background-color: #100F6D;
+}
+.start:active{
+  background-color: #00ff9d;
+}
+button:last-of-type:active{
+  background-color: #0400ff;
+}
+  .stop {
+    background-color: rgb(252, 50, 50);
+  }
+  .stop:active{
+    background-color: rgb(255, 91, 91);
+  }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
